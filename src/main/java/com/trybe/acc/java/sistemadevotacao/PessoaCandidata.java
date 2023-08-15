@@ -4,6 +4,12 @@ public class PessoaCandidata extends Pessoa {
   private int numero;
   private int votos;
 
+  /**
+   * Método para computar votos nos candidatos.
+   *
+   * @param nome nome da pessoa eleitora.
+   * @param numero numero da pessoa candidata.
+   */
   public PessoaCandidata(String nome, int numero) {
     this.nome = nome;
     this.numero = numero;

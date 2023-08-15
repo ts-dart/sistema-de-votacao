@@ -14,7 +14,7 @@ public class PessoaEleitora extends Pessoa {
 
   public void setNome(String nome) {
     this.nome = nome;
-  };
+  }
 
   public String getCpf() {
     return cpf;

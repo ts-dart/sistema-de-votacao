@@ -2,10 +2,17 @@ package com.trybe.acc.java.sistemadevotacao;
 
 import java.util.Scanner;
 
+/**
+ * Classe para executar o sitema de votação.
+ */
 public class Principal {
 
+  /**
+   * Método principal da classe para execução do programa.
+   *
+   * @param args não usado.
+   */
   public static void main(String[] args) {
-    // TODO Auto-generated method stub
     GerenciamentoVotacao gerenciamentoVotacao = new GerenciamentoVotacao();
     Scanner sc = new Scanner(System.in);
 
