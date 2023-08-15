@@ -5,11 +5,13 @@ import java.util.Scanner;
 public class Principal {
 
   public static void main(String[] args) {
+    // TODO Auto-generated method stub
     GerenciamentoVotacao gerenciamentoVotacao = new GerenciamentoVotacao();
     Scanner sc = new Scanner(System.in);
 
+    String nome;
+    String cpf;
     short resp;
-    String nome, cpf;
     int numero;
 
     do {
