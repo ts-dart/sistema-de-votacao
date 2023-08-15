@@ -22,7 +22,7 @@ public class PessoaCandidata extends Pessoa {
 
   public void setNome(String nome) {
     this.nome = nome;
-  };
+  }
 
   public int getNumero() {
     return numero;
